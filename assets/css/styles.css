@@ -55,45 +55,49 @@
 }
 
 .product-main-div {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background: rgba( 255, 255, 255, 0.25 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 4px );
+  box-shadow: 0px 0px rgb(58,65,71);
+  backdrop-filter: blur( 5px );
   -webkit-backdrop-filter: blur( 4px );
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 280px;
 }
 
 .product-image {
-  min-width: 120px;
-  min-height: 120px;
-  border-radius: 10px;
+  min-width: 220px;
+  min-height: 220px;
+  border-radius: 5px;
   object-fit: contain;
-  max-width: 120px;
-  max-height: 120px;
+  max-width: 220px;
+  max-height: 220px;
+  box-shadow: 1px 1px 2px 2px rgb(74,73,71);
 }
 
 .product-name {
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: rgb(255,255,255);
-  margin-top: 10px;
-  margin-bottom: 0;
+  margin-top: 5px;
   text-align: center;
+  font-weight: bold;
+  margin-bottom: 0px;
 }
 
 .specification-button {
-  width: 120px;
+  width: 220px;
   padding: 0;
   font-size: 0.9rem;
   color: #000000;
   text-align: center;
   font-weight: bold;
+  height: 25px;
 }
 
 .order-button {
   padding: 0;
-  width: 120px;
+  width: 220px;
   font-weight: bold;
   text-align: center;
   font-size: 0.9rem;
@@ -103,5 +107,15 @@
 .product-type-para {
   color: rgba(255,255,255,0.8);
   font-size: 0.7rem;
+}
+
+.product-column {
+  padding: 15px;
+}
+
+.product-hr {
+  width: 60%;
+  margin-bottom: 0;
+  background: #ffffff;
 }
 
