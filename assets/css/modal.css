@@ -1,8 +1,8 @@
 .modal-heading {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: bold;
-  color: #ff8c00;
+  color: #ff8c00w;
 }
 
 .modal-body {
@@ -26,12 +26,15 @@
 }
 
 .modal-body {
-  background: linear-gradient(rgb(25,25,25), #ff8c00);
+  backdrop-filter: blur( 1px );
+  -webkit-backdrop-filter: blur( 1px );
+  background: rgb(31,31,31);
+  border-radius: 5px;
 }
 
 #myModal {
   min-width: 280px;
-  width: 100%;
+  width: 90%;
 }
 
 .modal-specs-main-div {
@@ -88,5 +91,16 @@
 
 .modal-footer {
   background: #ff8c00;
+}
+
+.modal-price-para {
+  margin: 0;
+  color: rgb(255,255,255);
+  font-family: Inter, sans-serif;
+}
+
+.body {
+  background: url("../../assets/img/build-my-pc-background-image.jpg") fixed center / cover no-repeat;
+  color: #ff8c00;
 }
 
