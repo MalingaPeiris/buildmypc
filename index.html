@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
@@ -22,30 +23,48 @@
                     <hr class="product-hr">
                     <h3 class="text-uppercase product-name">free fire kraken</h3>
                     <p class="text-uppercase text-center product-type-para">Mid-Range&nbsp;</p>
-                    <div><a class="btn btn-warning btn-sm text-uppercase specification-button" role="button" data-toggle="modal" href="#myModal">Specifications</a>
-                        <div class="modal fade" role="dialog" tabindex="-1" id="myModal">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h4>Modal Title</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p class="text-center text-muted">Description </p>
-                                    </div>
-                                    <div class="modal-footer"><button class="btn btn-light" data-dismiss="modal" type="button">Close</button><button class="btn btn-primary" type="button">Save</button></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><a href="https://wa.me/94728129808"><button class="btn btn-success btn-sm text-uppercase order-button" type="button"><i class="fa fa-whatsapp"></i>&nbsp;order now</button></a>
+                    <div><a class="btn btn-warning btn-sm text-uppercase specification-button" role="button" data-toggle="modal" href="#myModal" data-target="#myModal">Specifications</a></div><a href="https://wa.me/94728129808"><button class="btn btn-success btn-sm text-uppercase order-button" type="button"><i class="fa fa-whatsapp"></i>&nbsp;order now</button></a>
                 </div>
             </div>
             <div class="col-sm-12 col-md-12 product-column">
                 <p>Paragraph</p>
             </div>
         </div>
+        <div class="modal fade shadow-sm" role="dialog" tabindex="-1" id="myModal">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="text-uppercase modal-heading">free fire kraken</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    </div>
+                    <div class="modal-body d-flex flex-column justify-content-center justify-content-sm-center"><img class="shadow-sm modal-image" src="assets/img/wrap%202%20-%20200x200.jpg"><a class="d-flex d-sm-flex justify-content-center justify-content-sm-center" href="https://wa.me/94728129808"><button class="btn btn-success btn-sm text-uppercase shadow order-button" id="modal-buttton" type="button"><i class="fa fa-whatsapp"></i>&nbsp;order now</button></a>
+                        <div class="modal-specs-main-div">
+                            <div class="shadow-sm modal-specs-sub-div">
+                                <div class="model-spec-div">
+                                    <p id="top-left" class="spec-topic-para-1">Processor</p>
+                                    <p class="spec-topic-para-1">Motherboard</p>
+                                    <p class="spec-topic-para-1">Power&nbsp;</p>
+                                    <p class="spec-topic-para-1">RAM</p>
+                                    <p class="spec-topic-para-1">VGA</p>
+                                    <p id="bottom-left" class="spec-topic-para-1">Storage</p>
+                                </div>
+                                <div class="model-spec-div">
+                                    <p id="top-right" class="spec-topic-para-2">Core i5 650 @3.20GHz</p>
+                                    <p class="spec-topic-para-2">P55 Gaming</p>
+                                    <p class="spec-topic-para-2">FSP Gaming PSU</p>
+                                    <p class="spec-topic-para-2">6GB</p>
+                                    <p class="spec-topic-para-2">Nvidia GTS 250 | 512MB</p>
+                                    <p id="bottom-right" class="spec-topic-para-2">250GB HDD</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Table-With-Search.js"></script>
 </body>
 
 </html>
